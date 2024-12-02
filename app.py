@@ -7,7 +7,7 @@ import os
 def creer_app():
     app = Flask(__name__)
     basedir = os.path.abspath(os.path.dirname(__file__))
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://bdd_users_z3tl_user:JF1CTSHmk1xNX2HmAxjGyA7HdESu6i9R@dpg-ct6mtdlumphs739i6pn0-a.oregon-postgres.render.com/bdd_users_z3tl'
 
 
     # postgresql://bdd_users_z3tl_user:JF1CTSHmk1xNX2HmAxjGyA7HdESu6i9R@dpg-ct6mtdlumphs739i6pn0-a.oregon-postgres.render.com/bdd_users_z3tl
